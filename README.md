@@ -3,38 +3,40 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Badge"/>
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart Badge"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase Badge"/>
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase Badge"/>
+  <img src="https://img.shields.io/badge/Arabic-RTL_Only-1E88E5?style=for-the-badge&logoColor=white" alt="Arabic RTL Badge"/>
 </p>
 
 ## ✨ Project Showcase: Defining Modern Mobile Commerce
 
-**Fruits Hub** is a robust, production-ready full-stack E-commerce application engineered from the ground up using **Flutter**. It boasts **dual backend support** (**Firebase** and **Supabase**) and features a dedicated, **enterprise-grade network layer**. This project goes beyond basic implementation, serving as a comprehensive demonstration of professional development workflows, advanced state management, **multi-gateway payment integration (Stripe & PayPal)**, and sophisticated architectural flexibility.
+**📢 Note: This application currently supports the Arabic language (Right-to-Left/RTL) only, as it is specialized for a local brand. English language support is architecturally planned and will be added in a future update.**
 
-This is a complete, scalable, and highly flexible solution showcasing the power of Dart and Flutter in building complex, high-performance mobile and web applications ready for real-world deployment.
+**Fruits Hub** is a robust, production-ready full-stack E-commerce application engineered from the ground up using **Flutter**. This project is a specialized solution tailored for the Middle East, implementing full **Right-to-Left (RTL)** layouts across the entire application. It boasts **dual backend support** (**Firebase** and **Supabase**) and includes a dedicated, **enterprise-grade network layer** and **multi-gateway payment integration (Stripe & PayPal)**.
+
+This is a complete, scalable, and highly flexible solution showcasing expert-level handling of RTL design, complex architectural patterns, and secure financial integrations.
 
 ---
 
 ## 🖼️ Visual Preview
 
-> **Note:** Replace the placeholders below with actual screenshots and a demo link!
+> **Note:** Replace the placeholders below with actual screenshots and a demo link! The screenshots should clearly show the Arabic text and RTL layout.
 
-| Onboarding Screen | Home Screen | Product Details | Cart & Checkout |
-| :---: | :---: | :---: | :---: |
-| | | 
+| Onboarding Screen (Arabic) | Home Screen (Arabic) | Product Details (RTL) 
 
 [Image of Product Details Screen]
- | 
+ | Cart & Checkout (RTL) 
 
 [Image of Shopping Cart and Checkout]
  |
+| :---: | :---: | :---: | :---: |
+| | | | |
 
 ---
 
 ## 💎 Key Features: What Users Experience
 
-Every feature in Fruits Hub is designed for a frictionless shopping journey, now supporting flexible and secure transactions:
+Every feature in Fruits Hub is designed for a frictionless shopping journey, fully optimized for the Arabic user:
 
+* **🇸🇦 Exclusive Arabic Support (RTL Default):** The entire UI is built and optimized for the **Right-to-Left (RTL) reading direction**. The underlying architecture is designed for quick future localization (i18n) expansion to English.
 * **🛡️ Secure Authentication Flow:** Complete user registration, login, and session management using robust Firebase Auth **or Supabase Auth**.
 * **🍎 Dynamic Product Catalog:** Browse categorized products, view featured items, and manage inventory state dynamically from the database.
 * **🔍 Advanced Search & Filtering:** High-performance filtering logic to allow users to quickly find products by name, category, or attributes.
@@ -47,22 +49,21 @@ Every feature in Fruits Hub is designed for a frictionless shopping journey, now
 
 ## ⚙️ The Engineering Achievement: What I Built
 
-This section highlights the technical complexity and sophisticated architectural patterns implemented, underscoring the enterprise-grade quality of the solution:
+This section highlights the technical complexity and sophisticated architectural patterns implemented:
 
-### 1. **Robust Architecture & Clean Code**
+### 1. **RTL-First Architecture & Clean Code**
+* The entire UI framework was developed with **RTL as the native default direction**, ensuring perfect mirroring of elements (icons, app bar, drawers, etc.) across all screens using Flutter's `Directionality` system.
 * Implemented **Clean Architecture** principles to enforce strict separation of concerns, ensuring the code is modular, reusable, and easily testable.
 * Employed the **Repository Pattern** to abstract data sources, facilitating the easy **integration of both Firebase and Supabase**.
-* Developed a high-quality, reusable **Widget Library** for rapid and consistent UI development across all screens.
 
 ### 2. **Mastery of State Management**
-* Utilized the **BLoC Pattern** (Business Logic Component) for immutable state and reliable UI rendering. This was critical for managing complex asynchronous operations like fetching product lists and updating the persistent shopping cart state in a predictable, stream-based manner.
+* Utilized the **BLoC Pattern** (Business Logic Component) for immutable state and reliable UI rendering. This was critical for managing complex asynchronous operations and persistent data like the shopping cart.
 
 ### 3. **Enterprise-Grade Network Layer**
-* Designed and implemented a dedicated network layer (e.g., using **Dio** or a similar package) complete with **Interceptors** for logging, token refresh, and centralized error handling. This ensures robust, secure, and scalable API communication.
+* Designed and implemented a dedicated network layer (using **Dio**) complete with **Interceptors** for logging, token refresh, and centralized error handling, ensuring robust and scalable API communication.
 
 ### 4. **Dual Backend Flexibility (Firebase & Supabase)**
-* **Modular Backend Services:** Structured data service modules to allow quick switching between **Firebase Firestore** (NoSQL) and **Supabase PostgREST** (PostgreSQL/SQL), demonstrating adaptability to different database technologies and client requirements.
-* **Real-time Data Sync:** Configured listeners for both backends to provide a dynamic user experience where product or cart changes are reflected instantly.
+* **Modular Backend Services:** Structured data service modules to allow quick switching between **Firebase Firestore** and **Supabase PostgREST**, showcasing adaptability to different backend technologies.
 
 ### 5. **Secure Multi-Gateway Payment Implementation**
 * Integrated **Stripe SDK** and **PayPal SDK** for end-to-end transaction handling, demonstrating expertise in managing complex financial integrations and adherence to security best practices.
@@ -77,8 +78,8 @@ This section highlights the technical complexity and sophisticated architectural
 | Component | Technology | Role in the Project |
 | :--- | :--- | :--- |
 | **Mobile/Web Framework** | `Flutter (Dart)` | Foundation for cross-platform UI/UX. |
+| **Language Support** | `flutter_localizations (Arabic RTL)` | Exclusive Arabic Language and RTL system. |
 | **Backend Services (Dual)** | `Google Firebase` & `Supabase` | Authentication, Database, and File Storage. |
-| **Database** | `Cloud Firestore / PostgreSQL` | Flexible data management (NoSQL or SQL). |
 | **State Management** | `BLoC / flutter_bloc` | State control and robust business logic injection. |
 | **Networking** | `Dio + Interceptors` | High-performance, enterprise-grade networking layer. |
 | **Payment** | `Stripe SDK` & `PayPal SDK` | Secure, multi-option financial transaction processing. |
