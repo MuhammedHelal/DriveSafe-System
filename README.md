@@ -17,18 +17,17 @@ This is a complete, scalable, and highly flexible solution showcasing expert-lev
 ---
 
 ## 🖼️ Visual Preview
+|
 
-> **Note:** Replace the placeholders below with actual screenshots and a demo link! The screenshots should clearly show the Arabic text and RTL layout.
+<img width="375" height="812" alt="splash-1" src="https://github.com/user-attachments/assets/31cb9e08-5d69-44f2-a365-eea37a7caea8" />
+<img width="375" height="812" alt="Review" src="https://github.com/user-attachments/assets/dec1d155-0cfb-4776-9e58-1b8da6bc4cd0" />
+<img width="375" height="812" alt="Recent Search" src="https://github.com/user-attachments/assets/5c39b169-ebaa-4c94-babc-998ef927c930" />
+<img width="375" height="812" alt="Products" src="https://github.com/user-attachments/assets/ce884dee-3e02-40f7-8325-9bf3377e43cd" />
+<img width="375" height="852" alt="Item details" src="https://github.com/user-attachments/assets/9941157e-a8e0-4eb6-8075-1ac4cfefeec5" />
+<img width="375" height="812" alt="Home" src="https://github.com/user-attachments/assets/49814e93-be4c-498d-8cac-c872673057cb" />
+<img width="375" height="812" alt="4  Login - Empty _ شاشة تسجيل دخول" src="https://github.com/user-attachments/assets/3e15dc09-661e-4952-a366-20246b7f2f86" />
 
-| Onboarding Screen (Arabic) | Home Screen (Arabic) | Product Details (RTL) 
-
-[Image of Product Details Screen]
- | Cart & Checkout (RTL) 
-
-[Image of Shopping Cart and Checkout]
- |
-| :---: | :---: | :---: | :---: |
-| | | | |
+|
 
 ---
 
