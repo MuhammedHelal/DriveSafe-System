@@ -9,9 +9,9 @@
 
 ## ✨ Project Showcase: Defining Modern Mobile Commerce
 
-**Fruits Hub** is a robust, production-ready full-stack E-commerce application engineered from the ground up using **Flutter**. It boasts **dual backend support** (**Firebase** and **Supabase**) and features a dedicated, **enterprise-grade network layer**. This project goes beyond basic implementation, serving as a comprehensive demonstration of professional development workflows, advanced state management, secure payment handling, and architectural flexibility.
+**Fruits Hub** is a robust, production-ready full-stack E-commerce application engineered from the ground up using **Flutter**. It boasts **dual backend support** (**Firebase** and **Supabase**) and features a dedicated, **enterprise-grade network layer**. This project goes beyond basic implementation, serving as a comprehensive demonstration of professional development workflows, advanced state management, **multi-gateway payment integration (Stripe & PayPal)**, and sophisticated architectural flexibility.
 
-This is a complete, scalable, and highly flexible solution showcasing the power of Dart and Flutter in building complex, high-performance mobile and web applications.
+This is a complete, scalable, and highly flexible solution showcasing the power of Dart and Flutter in building complex, high-performance mobile and web applications ready for real-world deployment.
 
 ---
 
@@ -33,13 +33,13 @@ This is a complete, scalable, and highly flexible solution showcasing the power 
 
 ## 💎 Key Features: What Users Experience
 
-Every feature in Fruits Hub is designed for a frictionless shopping journey, now including secure transactions:
+Every feature in Fruits Hub is designed for a frictionless shopping journey, now supporting flexible and secure transactions:
 
 * **🛡️ Secure Authentication Flow:** Complete user registration, login, and session management using robust Firebase Auth **or Supabase Auth**.
 * **🍎 Dynamic Product Catalog:** Browse categorized products, view featured items, and manage inventory state dynamically from the database.
 * **🔍 Advanced Search & Filtering:** High-performance filtering logic to allow users to quickly find products by name, category, or attributes.
 * **🛒 Comprehensive Cart Management:** Real-time updates to quantities, removal of items, and automatic calculation of totals/subtotals.
-* **💳 Integrated Payment Gateway:** Implemented a secure **payment integration** (e.g., Stripe/Razorpay placeholder) to handle transactions during the multi-step checkout process.
+* **💳 Multi-Gateway Payment System:** Implemented secure payment processing via **Stripe** and **PayPal SDKs**, providing users with trusted checkout options.
 * **📦 Order History & Tracking:** Dedicated screens for users to review past purchases and check the current status of active orders.
 * **⚙️ User Profile Management:** Allowing users to update personal details, change passwords, and manage addresses.
 
@@ -64,8 +64,8 @@ This section highlights the technical complexity and sophisticated architectural
 * **Modular Backend Services:** Structured data service modules to allow quick switching between **Firebase Firestore** (NoSQL) and **Supabase PostgREST** (PostgreSQL/SQL), demonstrating adaptability to different database technologies and client requirements.
 * **Real-time Data Sync:** Configured listeners for both backends to provide a dynamic user experience where product or cart changes are reflected instantly.
 
-### 5. **Secure Payment Implementation**
-* Integrated a third-party payment processing solution to handle tokenization and secure transaction submission, ensuring PCI compliance is considered at the application layer.
+### 5. **Secure Multi-Gateway Payment Implementation**
+* Integrated **Stripe SDK** and **PayPal SDK** for end-to-end transaction handling, demonstrating expertise in managing complex financial integrations and adherence to security best practices.
 
 ### 6. **Cross-Platform Readiness**
 * The application is built with a single codebase designed for native performance on **iOS, Android, and Web**, demonstrating high proficiency in Flutter's multi-platform capabilities.
@@ -77,11 +77,11 @@ This section highlights the technical complexity and sophisticated architectural
 | Component | Technology | Role in the Project |
 | :--- | :--- | :--- |
 | **Mobile/Web Framework** | `Flutter (Dart)` | Foundation for cross-platform UI/UX. |
-| **Backend Services (Dual)** | `Google Firebase` & `Supabase` | Authentication, Real-time Database, and File Storage. |
+| **Backend Services (Dual)** | `Google Firebase` & `Supabase` | Authentication, Database, and File Storage. |
 | **Database** | `Cloud Firestore / PostgreSQL` | Flexible data management (NoSQL or SQL). |
 | **State Management** | `BLoC / flutter_bloc` | State control and robust business logic injection. |
 | **Networking** | `Dio + Interceptors` | High-performance, enterprise-grade networking layer. |
-| **Payment** | `[Stripe / Razorpay SDK]` | Secure handling of financial transactions. |
+| **Payment** | `Stripe SDK` & `PayPal SDK` | Secure, multi-option financial transaction processing. |
 
 ---
 
