@@ -6,7 +6,7 @@ A highly advanced graduation project that integrates **AI-powered driver monitor
 
 ---
 
-▶️ [Watch full video demo]([https://youtu.be/VIDEO_ID](https://drive.google.com/file/d/1StKUAvlMpVaUlzbpkQndbp5c7VIFEKLw/view?usp=sharing))
+▶️ [Watch full video demo]((https://drive.google.com/file/d/1StKUAvlMpVaUlzbpkQndbp5c7VIFEKLw/view?usp=sharing))
 
 ---
 ## 🌟 System Pillars: Safety, Autonomy, and Cooperation
