@@ -5,8 +5,9 @@ This project, graded **A+**, is my graduation project from the Faculty of Engine
 A highly advanced graduation project that integrates **AI-powered driver monitoring** with **Vehicle-to-Vehicle (V2V) communication** and an **Automated Emergency Response System with Autonomous Control** to protect the driver, notify emergency services, and manage surrounding traffic.
 
 ---
-▶️ [Watch full video demo]([https://youtu.be/VIDEO_ID](https://drive.google.com/file/d/1StKUAvlMpVaUlzbpkQndbp5c7VIFEKLw/view?usp=sharing
-))
+
+▶️ [Watch full video demo]([https://youtu.be/VIDEO_ID](https://drive.google.com/file/d/1StKUAvlMpVaUlzbpkQndbp5c7VIFEKLw/view?usp=sharing))
+
 ---
 ## 🌟 System Pillars: Safety, Autonomy, and Cooperation
 
